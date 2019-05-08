@@ -117,8 +117,13 @@ export default {
   }
 }
 .searchbar-input {
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
   padding: 0.5rem 1rem;
-  border-radius: 20px;
   font-size: 1rem;
   border: 1px solid gray;
   opacity: none;
@@ -131,7 +136,6 @@ export default {
 .btn {
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  border-radius: 20px;
   background: transparent;
   border: none;
 }
@@ -143,6 +147,31 @@ export default {
 .btn--go {
   padding: 0.5rem 2rem;
   margin-left: 1rem;
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn--go {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.btn--go:hover {
+  background-color: #008cba;
+  color: white;
 }
 </style>
 

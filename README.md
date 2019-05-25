@@ -18,4 +18,37 @@ npm run serve
 ### Places  
 ![Places](http://i64.tinypic.com/2envn2t.jpg) 
 ### Search  
-![Search](http://i65.tinypic.com/2nb52js.jpg)
+![Search](http://i65.tinypic.com/2nb52js.jpg)  
+
+### Directory tree
+
+```.
+├── babel.config.js
+├── Dockerfile
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon.ico
+│   └── index.html
+├── README.md
+└── src
+    ├── App.vue
+    ├── assets
+    │   ├── homepage-hero.jpg
+    │   └── logo.png
+    ├── components
+    │   ├── HeroSection.vue
+    │   ├── ImageCard.vue
+    │   ├── NavBar.vue
+    │   ├── PlacePhotos.vue
+    │   └── RecentPhotos.vue
+    ├── flickr.js
+    ├── main.js
+    ├── router.js
+    └── views
+        ├── About.vue
+        ├── Home.vue
+        └── SearchResults.vue
+
+
+```
